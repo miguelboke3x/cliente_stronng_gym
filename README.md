@@ -1,2 +1,2 @@
-# cliente_stronng_gym
- proyecto final cliente gym
+# cliente_stronggym
+ proycto final cliente

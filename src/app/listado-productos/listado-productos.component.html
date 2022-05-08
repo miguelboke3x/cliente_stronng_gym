@@ -1,0 +1,23 @@
+
+<main id="main">
+
+    <section class="cards">
+        <article class="card" *ngFor="let producto of productos">
+          <!--<app-productos [productos]="productos"></app-productos>-->
+          <div>
+            <img src={{producto.imagen}} />
+          </div>
+          <div class="nombre-productos">
+            <span>{{producto.nombre}}</span>
+          </div>
+          <div class="nombre-producto">
+            <span> {{producto.descripcion}}</span>
+          </div>
+                  <div class="precio-producto">
+            <span>{{producto.pvp}}$</span>
+          </div>
+
+        </article>
+
+    </section>
+</main>
